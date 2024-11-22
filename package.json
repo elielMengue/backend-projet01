@@ -1,0 +1,26 @@
+{
+  "name": "ikoue-projet01",
+  "version": "1.0.0",
+  "description": "sending email with smtp",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elielMengue/backend-projet01.git"
+  },
+  "author": "Eliel MENGUE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elielMengue/backend-projet01/issues"
+  },
+  "homepage": "https://github.com/elielMengue/backend-projet01#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "nodemailer": "^6.9.16"
+  }
+}
